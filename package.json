@@ -1,0 +1,30 @@
+{
+  "name": "trpc-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "ts-node server/index.ts",
+    "client": "ts-node client/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "20.12.1",
+    "npm": "10.5.1"
+  },
+  "dependencies": {
+    "@trpc/client": "^11.0.0-rc.334",
+    "@trpc/server": "^11.0.0-rc.334",
+    "ts-node": "^10.9.2",
+    "uuid": "^9.0.1",
+    "yargs": "^17.7.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.8",
+    "@types/yargs": "^17.0.32",
+    "turbo": "^1.13.2"
+  }
+}
